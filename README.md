@@ -22,7 +22,7 @@ that the University of California participates in.
 
 ```
 bower install                  # install all web libraries required
-bundle                         # install middle man / ruby asset pipline
+bundle install --binstubs --path gems   # install middle man / ruby asset pipline
 bundle exec middleman          # test server for middleman
 bundle exec middleman build    # build static templates
 ```
